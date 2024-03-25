@@ -1,0 +1,84 @@
+<nav class="navbar navbar-expand-lg bg-body-white">
+  <div class="container-fluid">
+    <div class="img-container">
+      <img
+        class="logoImg img-fluid"
+        src="../assets/images/robologo.png"
+        alt=""
+      />
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasDarkNavbar"
+      aria-controls="offcanvasDarkNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse offcanvas offcanvas-end text-bg-dark"
+      id="offcanvasDarkNavbar"
+      tabindex="-1"
+      aria-labelledby="offcanvasDarkNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            aria-current="page"
+            routerLink="/technology"
+            routerLinkActive="active"
+            >Technology</a
+          >
+          <div class="dropdown-content">
+            <ul>
+              <li>Renubot</li>
+              <li>Recharge Pod</li>
+              <li>Mission Control</li>
+              <li>Savings</li>
+              <li>Future</li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/media" routerLinkActive="active"
+            >Media</a
+          >
+          <div class="dropdown-content">
+            <ul>
+              <li>Coverage</li>
+              <li>Webcasts</li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/aboutus" routerLinkActive="active"
+            >About us</a
+          >
+          <div class="dropdown-content">
+            <ul>
+              <li>Renu Robotics</li>
+              <li>Team</li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contactus" routerLinkActive="active"
+            >Contact</a
+          >
+          <div class="dropdown-content"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

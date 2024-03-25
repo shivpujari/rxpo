@@ -1,0 +1,57 @@
+.bgImgRow {
+  height: 150vh;
+  width: auto;
+  background-image: url("../../assets/images/section-tech-sliders-bg.jpg");
+  background-size: cover;
+}
+.col h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 44px;
+}
+.col p {
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.4;
+}
+.col button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #008000;
+  padding: 15px 39px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 10px;
+}
+.imgDiv img {
+  height: auto;
+  width: auto;
+  margin-top: -160px;
+}
+.rowline {
+  height: 3px;
+  background-color: #008000;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cennterDiv h1,
+p {
+  color: black;
+}
+.cennterDiv p {
+  color: rgba(47, 60, 69, 0.69);
+}
+@media (max-width: 1024px) {
+  .imgDiv img {
+    margin-top: -290px;
+  }
+}
+@media (max-width: 768px) {
+  .imgDiv img {
+    height: 380px;
+  }
+}

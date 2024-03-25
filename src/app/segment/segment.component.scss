@@ -1,0 +1,67 @@
+.container-fluid {
+  background-color: #f5f6f7;
+}
+.col-lg-5 h1 {
+  font-family: Red Hat DisplayVariable, Red Hat Display, sans-serif;
+  padding: 0px 20px 0px 20px;
+}
+.col-lg-5 p {
+  font-family: Roboto FlexVariable, Roboto Flex, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #002b39;
+  letter-spacing: 0.0025rem;
+  font-weight: 300;
+  font-variation-settings: "opsz" 16, "GRAD" 0;
+  padding: 0px 20px 0px 20px;
+}
+
+.secondSeg {
+  padding: 30px 130px 30px 30px;
+}
+.paraDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 100px;
+}
+.imgDiv {
+  margin-left: 20px;
+  padding: 80px 0px 50px 80px;
+}
+.paraDiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .paraDiv {
+    margin-left: 0;
+  }
+  .col-lg-5 h1,
+  p {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 950px) {
+  .paraDiv {
+    margin-left: 0;
+  }
+  .col-lg-5 h1,
+  p {
+    padding: 0 !important;
+  }
+  .imgDiv {
+    margin-left: 0;
+    padding: 0;
+  }
+  .paraDiv2 {
+    padding: 10px;
+  }
+  .secondSeg {
+    padding: 0;
+  }
+}

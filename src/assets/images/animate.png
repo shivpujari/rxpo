@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1164px" height="1127px" viewBox="0 0 1164 1127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 3</title>
+    <defs>
+        <linearGradient x1="3.96318201%" y1="34.9464942%" x2="100%" y2="34.9464942%" id="linearGradient-1">
+            <stop stop-color="#5C6F7B" offset="0%"></stop>
+            <stop stop-color="#2F3C45" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2" opacity="0.900000036">
+        <path d="M255.787357,30.6776058 C451.78135,-106.749161 1182.95105,259.905499 1162.98539,397.133384 C1143.01973,534.36127 1062.02065,1103.90269 864.575019,1125.19466 C667.129384,1146.48662 201.507116,963.125294 58.017895,778.786011 C-27.1816762,669.330905 -10.5774122,474.554562 58.0023656,305.600051 C104.921513,190.009103 176.168686,86.5045036 255.787357,30.6776058 Z" id="Rectangle-3" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap");
+
+.card {
+  padding: 8px;
+  border: 0;
+  height: 50vh;
+}
+.card img {
+  height: 60vh;
+}
+.card img {
+  transition: all 0.3s ease;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.row {
+  background-color: #ebe9e3;
+  height: 300px;
+  border-radius: 0.75rem;
+  width: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px;
+}
+.footer h3 {
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}

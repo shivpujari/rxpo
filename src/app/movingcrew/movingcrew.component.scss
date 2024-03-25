@@ -1,0 +1,109 @@
+.container-fluid {
+  margin-top: 180px;
+}
+
+.hero-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  width: 60%;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+.btn {
+  display: flex;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.anchorBtn {
+  background-color: #008000;
+  height: 60px;
+  width: 300px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.anchorBtn a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.imgContainer {
+  width: 100%;
+  // background-image: url("https://renurobotics.com/wp-content/themes/renu-robotics/resources/images/shapes/shape-1.svg");
+  // opacity: 1;
+  // background-size: cover;
+  // background-position: start;
+  // height: 100%;
+}
+
+.img {
+  width: 100%;
+  margin-top: -200px;
+}
+
+@media (max-width: 1000px) {
+  .container-fluid {
+    margin-top: 100px;
+  }
+  .img {
+    margin-top: -10px;
+  }
+  .hero-content h1 {
+    font-size: 58px;
+    width: 200%;
+    padding: 20px;
+  }
+  .hero-content p {
+    width: 150%;
+    margin-left: 80px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .anchorBtn {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 770px) {
+  .hero-content h1 {
+    font-size: 48px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hero-content p {
+    width: 100%;
+    margin: 0;
+  }
+  .btn {
+    display: flex;
+    justify-self: unset;
+  }
+  .anchorBtn {
+    margin-left: -60px;
+  }
+}
+@media (max-width: 450px) {
+  .anchorBtn {
+    margin-left: -20px;
+  }
+  .container-fluid {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1000px) {
+}
