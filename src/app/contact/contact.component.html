@@ -1,18 +1,147 @@
 <app-header></app-header>
 <div class="container-fluid">
   <div class="row my-5">
-    <div class="rowline mt-3"></div>
     <div class="row justify-content-center">
-      <div class="col cennterDiv text-center py-5">
+      <div class="col cennterDiv text-center py-5 md-py-0">
         <h1 class="">
           Let’s Talk How We Can Cut Down On Expenses, Time And Carbon Emissions.
         </h1>
-        <p class="p-3">
+        <p class="p-3 md-p-0">
           Renu Robotics is revolutionizing the way solar and energy facilities
           solve vegetation management problems, so please complete this quick
           initial report so we can put together the right plan for you:
         </p>
       </div>
+      <div class="form-container text-center">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3 inputcontains">
+                <label for="inputEmail" class="mb-2">NAME</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="Enter your name..."
+                  aria-describedby="emailHelp"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3 inputcontains">
+                <label for="inputPassword" class="mb-2">COMPANY NAME</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                  placeholder="The name of your Company..."
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3 inputcontains">
+                <label for="inputPassword" class="mb-2">YOUT TITLE</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                  placeholder="Your job title..."
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3 inputcontains">
+                <label for="inputPassword" class="mb-2">EMAIL ADDRESS</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword"
+                  placeholder="Your email address..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="mb-3 inputcontains">
+                <label for="inputField1" class="form-label"
+                  >STATE/PROVINCE</label
+                >
+                <select class="form-select" id="inputField1">
+                  <option value="USA">United States</option>
+                  <option value="CAN">Canada</option>
+                  <option value="UK">United Kingdom</option>
+                  <option value="AUS">Australia</option>
+                  <option value="GER">Germany</option>
+                  <option value="FRA">France</option>
+                  <option value="JPN">Japan</option>
+                  <option value="ITA">Italy</option>
+                  <option value="BRA">Brazil</option>
+                  <option value="IND">India</option>
+                  <option value="CHN">China</option>
+                  <option value="RUS">Russia</option>
+                  <option value="MEX">Mexico</option>
+                  <option value="ESP">Spain</option>
+                  <option value="ARG">Argentina</option>
+                  <option value="NLD">Netherlands</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="mb-3 inputcontains">
+                <label for="inputField2" class="form-label"
+                  >TOTAL ACREAGE</label
+                >
+                <input
+                  type="text"
+                  placeholder="Total Acreage?"
+                  class="form-control"
+                  id="inputField2"
+                />
+              </div>
+            </div>
+            <div class="col-md-3 inputcontains">
+              <div class="mb-3">
+                <label for="inputField2" class="form-label">MEGAWATTS</label>
+                <input
+                  type="text"
+                  placeholder="Megawattss"
+                  class="form-control"
+                  id="inputField2"
+                />
+              </div>
+            </div>
+            <div class="col-md-3 inputcontains">
+              <div class="mb-3">
+                <label for="inputField2" class="form-label">COST/ACRE</label>
+                <input
+                  type="text"
+                  placeholder="Cost/Acre"
+                  class="form-control"
+                  id="inputField2"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="mb-3 d-flex exampleTextarea flex-column justify-content-start align-items-start"
+          >
+            <label for="exampleTextarea" class="mb-3 exampleTextarea"
+              >ANY SPECIFIC SITE INFORMATION</label
+            >
+            <textarea
+              class="form-control largeInput"
+              id="exampleTextarea"
+              placeholder="Enter your information"
+            ></textarea>
+          </div>
+          <div class="btnsubmit">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
+  <app-footer></app-footer>
 </div>
