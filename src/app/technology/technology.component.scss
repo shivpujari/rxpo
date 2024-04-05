@@ -45,13 +45,40 @@ p {
 .cennterDiv p {
   color: rgba(47, 60, 69, 0.69);
 }
-@media (max-width: 1024px) {
-  .imgDiv img {
-    margin-top: -290px;
-  }
-}
+
 @media (max-width: 768px) {
   .imgDiv img {
     height: 380px;
+  }
+  .bgImgRow {
+    height: 140vh;
+  }
+}
+
+@media (max-width: 380px) {
+  .imgDiv {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .bgImgRow {
+    height: 130vh !important;
+  }
+  .imgDiv {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 400px) and (max-width: 450px) {
+  .bgImgRow {
+    height: 100vh;
+  }
+  .imgDiv {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 815px) and (max-width: 915px) {
+  .bgImgRow {
+    height: 90vh !important;
   }
 }
